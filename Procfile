@@ -1,1 +1,1 @@
-web: gunicorn datatable:server
+web: gunicorn europe_with_overall:server
