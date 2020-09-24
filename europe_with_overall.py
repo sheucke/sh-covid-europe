@@ -109,6 +109,7 @@ else:
 print(status)
 
 app = dash.Dash(__name__, prevent_initial_callbacks=True)
+server = app.server
 
 app.layout = html.Div([
     html.H1("Covid cases in europe"),
