@@ -134,8 +134,8 @@ app.layout = html.Div([
         # enables data to be sorted per-column by user or not ('none')
         sort_action="native",
         column_selectable="multi",
+        # selected_rows=[16, 18, 27, 49, 53],
         row_selectable="multi",
-        selected_rows=[16, 18, 27, 49, 53],
         page_action="native",
         page_current=0,             # page number that user is on
         page_size=20,                # number of rows visible per page
